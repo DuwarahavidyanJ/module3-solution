@@ -1,0 +1,103 @@
+.body{
+    font-size: 16px;
+    background-color: white;
+    font-family: 'Oxygen', sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+#header-nav{
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand{
+    color: black;
+    font-size:2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 1px #222;
+}
+
+/* .navbar-brand:hover{
+    color: black;
+    This code doesn't work make it important
+} */
+
+.navbar-brand:hover {
+    color: black !important;
+}
+
+.navbar-toggle{
+    border: 2px solid black !important;
+    box-shadow: 1px 1px 1px #222;
+}
+
+.icon-bar{
+    border: 2px solid black;
+}
+
+
+.navbar-collapse {
+    border-top:0;
+}
+
+#nav-list{
+    background-color:white ;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.5em;
+}
+
+#nav-list li{
+    border: 1px solid black;
+    border-right: 0;
+    border-left: 0;
+    color: black; 
+
+}
+
+#nav-list li:nth-child(3){
+    border-bottom: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: black;
+}
+
+
+
+.main-heading h2{
+    font-family:cursive;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 35px;
+
+}
+
+#main-content section{
+    background-color: rgb(194, 193, 193);
+    color: black;
+    border: 1px solid #222;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#main-content section p{
+    padding: 0 15px 0 ;
+    margin-top: 10px;
+}
+
+#main-content section h3{
+    padding-top: 0px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
